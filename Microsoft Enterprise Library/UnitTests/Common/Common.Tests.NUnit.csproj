@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{02FC8CE2-2CB3-41B6-8516-0A27B99708A9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Microsoft.Practices.EnterpriseLibrary.Common.Tests</RootNamespace>
+    <AssemblyName>Microsoft.Practices.EnterpriseLibrary.Common.Tests</AssemblyName>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>.\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NUNIT</DefineConstants>
+    <NoWarn>
+    </NoWarn>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <RunFxCop>false</RunFxCop>
+    <FxCopRules>-Microsoft.Design#CA2210;-Microsoft.Reliability#CA2007</FxCopRules>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <OutputPath>.\bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NUNIT</DefineConstants>
+    <NoWarn>
+    </NoWarn>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <RunFxCop>true</RunFxCop>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="nunit.framework, Version=2.2.0.0, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Program Files\NUnit 2.2\bin\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\..\Src\GlobalAssemblyInfo.cs">
+      <Link>GlobalAssemblyInfo.cs</Link>
+    </Compile>
+    <Compile Include="Configuration\AssemblyQualifiedTypeNameConverterFixture.cs" />
+    <Compile Include="Configuration\ByteArrayTypeConverterFixture.cs" />
+    <Compile Include="Configuration\ConfigurationChangeWatcherFixture.cs" />
+    <Compile Include="Configuration\ConfigurationReflectionCacheFixture.cs" />
+    <Compile Include="Configuration\ConfigurationSourceFactoryFixture.cs" />
+    <Compile Include="Configuration\ConfigurationSourceSectionFixture.cs" />
+    <Compile Include="Configuration\ConfigurationTestHelper.cs" />
+    <Compile Include="Configuration\DictionarySourceFixture.cs" />
+    <Compile Include="Configuration\DummySection.cs" />
+    <Compile Include="Configuration\FileConfigurationSourceFixture.cs" />
+    <Compile Include="Configuration\InstrumentationAttachmentStrategyFixture.cs" />
+    <Compile Include="Configuration\InstrumentationDisabledInstrumentationAttachmentStrategyFixture.cs" />
+    <Compile Include="Configuration\InstrumentationInjectionFixture.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Configuration\MockCustomProviderBase.cs" />
+    <Compile Include="Configuration\ObjectBuilder\AssemblerBasedCustomFactoryFixture.cs" />
+    <Compile Include="Configuration\ObjectBuilder\AssemblerBasedObjectFactoryFixture.cs" />
+    <Compile Include="Configuration\ObjectBuilder\ConfigurationNameMappingStrategyFixture.cs" />
+    <Compile Include="Configuration\ObjectBuilder\ConfigurationNameProviderFixture.cs" />
+    <Compile Include="Configuration\ObjectBuilder\ConfiguredObjectStrategyFixture.cs" />
+    <Compile Include="Configuration\ObjectBuilder\ExplicitInstrumentationAttacherFixture.cs" />
+    <Compile Include="Configuration\ObjectBuilder\MockBuilderContext.cs" />
+    <Compile Include="Configuration\ObjectBuilder\MockFactoryStrategy.cs" />
+    <Compile Include="Configuration\SaveFileConfigurationFixture.cs" />
+    <Compile Include="Configuration\SerializableConfigurationSectionFixture.cs" />
+    <Compile Include="ExtraResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ExtraResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="InstrumentationAttacherFactoryFixture.cs" />
+    <Compile Include="InstrumentationStrategyFixture.cs" />
+    <Compile Include="Instrumentation\AbstractInstallerBuilderFixture.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Instrumentation\EnterpriseLibraryPerformanceCounterFactoryFixture.cs" />
+    <Compile Include="Instrumentation\EventBinderFixture.cs" />
+    <Compile Include="Instrumentation\AppDomainNameFormatterFixture.cs" />
+    <Compile Include="CrossThreadTestRunner.cs" />
+    <Compile Include="Instrumentation\EnterpriseLibraryPerformanceCounterFixture.cs" />
+    <Compile Include="Instrumentation\EventLogEntryFormatterFixture.cs" />
+    <Compile Include="Instrumentation\EventLogInstallerBuilderFixture.cs" />
+    <Compile Include="Instrumentation\InstrumentationListenerFixture.cs" />
+    <Compile Include="Instrumentation\PerfCounterInstaller.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Instrumentation\PerfCounterInstaller.Designer.cs">
+      <DependentUpon>PerfCounterInstaller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Instrumentation\PerformanceCounterInstallerBuilderFixture.cs" />
+    <Compile Include="Instrumentation\PerformanceCounterInstanceNameFixture.cs" />
+    <Compile Include="Instrumentation\ReflectionInstallerForInternalClassesFixture.cs" />
+    <Compile Include="Instrumentation\ReflectionInstrumentationBinderFixture.cs" />
+    <Compile Include="Instrumentation\ReflectionInstrumentationBinderMocks.cs" />
+    <Compile Include="Instrumentation\TestEventMessage.cs" />
+    <Compile Include="Instrumentation\WMIEventPublishingFixture.cs" />
+    <Compile Include="Instrumentation\WmiEventWatcher.cs" />
+    <Compile Include="Configuration\ObjectBuilder\InjectionAttributesFixture.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="StringTranslatorFixture.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Configuration\SystemConfigurationSourceFixture.cs" />
+    <Compile Include="Configuration\SystemConfigurationSourceImplementationFixture.cs" />
+    <Compile Include="ThreadStressHelper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Src\Common\Common.csproj">
+      <Project>{A09297C8-2C40-470B-8856-D856676DDFFA}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Src\ObjectBuilder\ObjectBuilder.csproj">
+      <Project>{2AE49F19-392B-4C50-A13C-F49B2579849D}</Project>
+      <Name>ObjectBuilder</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ExtraResources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ExtraResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Configuration\dummy.external.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Configuration\test.exe.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Microsoft.Practices.EnterpriseLibrary.Common.Tests.dll.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="test.exe.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSHARP.Targets" />
+</Project>

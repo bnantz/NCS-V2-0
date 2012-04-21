@@ -1,0 +1,5 @@
+bin\Debug\NCS.Utilities.dll
+bin\Debug\NCS.Utilities.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\NCS.Utilities.dll
+obj\Debug\NCS.Utilities.pdb

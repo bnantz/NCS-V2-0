@@ -1,0 +1,17 @@
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cache.CachingStore.dll
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cache.CachingStore.pdb
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.dll
+bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.pdb
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.xml
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.pdb
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.xml
+bin\Debug\Microsoft.Practices.ObjectBuilder.pdb
+bin\Debug\Microsoft.Practices.ObjectBuilder.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cache.CachingStore.dll
+obj\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Cache.CachingStore.pdb

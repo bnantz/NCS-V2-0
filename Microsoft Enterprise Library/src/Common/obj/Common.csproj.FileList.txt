@@ -1,0 +1,10 @@
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+bin\Debug\Microsoft.Practices.ObjectBuilder.pdb
+bin\Debug\Microsoft.Practices.ObjectBuilder.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Microsoft.Practices.EnterpriseLibrary.Common.Properties.Resources.resources
+obj\Debug\Common.csproj.GenerateResource.Cache
+obj\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+obj\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb

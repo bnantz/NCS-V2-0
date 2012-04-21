@@ -1,0 +1,13 @@
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.dll
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.pdb
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.pdb
+bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+bin\Debug\Microsoft.Practices.ObjectBuilder.pdb
+bin\Debug\Microsoft.Practices.ObjectBuilder.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Microsoft.Practices.EnterpriseLibrary.Security.Properties.Resources.resources
+obj\Debug\Security.csproj.GenerateResource.Cache
+obj\Debug\Microsoft.Practices.EnterpriseLibrary.Security.dll
+obj\Debug\Microsoft.Practices.EnterpriseLibrary.Security.pdb

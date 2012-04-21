@@ -1,0 +1,283 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{133A2E1E-5DA7-4690-AC48-80CA062A7E1D}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>NCS.Windows</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>NCS.Windows</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Forms\Button.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\CheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\CheckedListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ColorDialog.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ContextMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\CustomValidators.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DataGrid.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DateTimePicker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\DomainUpDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ErrorProvider.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\FontDialog.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\GroupBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\HelpProvider.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\HScrollBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Label.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\LinkLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ListView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\MainMenu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\MonthCalendar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\NumericUpDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Panel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\PictureBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\RadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\RichTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\Splitter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\StatusBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\TabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\TextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\ToolBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\TrackBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\TreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\VScollBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="Forms\Button.resx">
+      <DependentUpon>Button.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CheckBox.resx">
+      <DependentUpon>CheckBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\CheckedListBox.resx">
+      <DependentUpon>CheckedListBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ComboBox.resx">
+      <DependentUpon>ComboBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ContextMenu.resx">
+      <DependentUpon>ContextMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FontDialog.resx">
+      <DependentUpon>FontDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ListBox.resx">
+      <DependentUpon>ListBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\TextBox.resx">
+      <DependentUpon>TextBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="images\System.Windows.Forms.Button.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.CheckBox.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.CheckedListBox.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.ColorDialog.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.ComboBox.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.ContextMenu.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.DataGrid.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.DateTimePicker.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.DomainUpDown.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.ErrorProvider.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.FolderBrowserDialog.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.FontDialog.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.GroupBox.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.HelpProvider.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.HScrollBar.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.ImageList.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.Label.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.LinkLabel.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.ListBox.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.ListView.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.MainMenu.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.MonthCalendar.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.NotifyIcon.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.NumericUpDown.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.OpenFileDialog.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.PageSetupDialog.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.Panel.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.PictureBox.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.PrintDialog.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.PrintPreviewControl.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.PrintPreviewDialog.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.ProgressBar.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.RadioButton.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.RichTextBox.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.SaveFileDialog.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.Splitter.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.StatusBar.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.TabControl.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.TextBox.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.Timer.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.ToolBar.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.ToolTip.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.TrackBar.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.TreeView.bmp" />
+    <EmbeddedResource Include="images\System.Windows.Forms.VScrollBar.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\CompareValidator.ico" />
+    <Content Include="images\CustomValidator.ico" />
+    <Content Include="images\RangeValidator.ico" />
+    <Content Include="images\RegularExpressionValidator.ico" />
+    <Content Include="images\RequiredFieldValidator.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

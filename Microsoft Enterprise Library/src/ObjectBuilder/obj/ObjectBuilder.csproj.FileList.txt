@@ -1,0 +1,7 @@
+bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+bin\Debug\Microsoft.Practices.ObjectBuilder.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Microsoft.Practices.ObjectBuilder.Properties.Resources.resources
+obj\Debug\ObjectBuilder.csproj.GenerateResource.Cache
+obj\Debug\Microsoft.Practices.ObjectBuilder.dll
+obj\Debug\Microsoft.Practices.ObjectBuilder.pdb
